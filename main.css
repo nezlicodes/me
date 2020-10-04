@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    height: 100vh;
+    max-width: 100% !important;
+    margin: 0;
+    background-color: #005a87;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+}
