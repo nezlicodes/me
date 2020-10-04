@@ -1,8 +1,7 @@
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body,
 h1,
@@ -18,29 +17,37 @@ figcaption,
 blockquote,
 dl,
 dd {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
 html {
-    min-height: 100%;
-    overflow-x: hidden;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    max-width: 100% !important;
-    margin: 0;
-    padding: 0;
-}
+  min-height: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0; }
 
 body {
-    scroll-behavior: smooth;
-    height: 100vh;
-    max-width: 100% !important;
-    margin: 0;
-    background-color: #005a87;
-    padding: 0;
-}
+  color: white;
+  scroll-behavior: smooth;
+  height: 100vh;
+  max-width: 100% !important;
+  margin: 0;
+  background-color: #004669;
+  padding: 0; }
 
-#header {
-    display: flex;
-}
+main #header {
+  display: flex; }
+  main #header .text,
+  main #header .image {
+    width: 50%; }
+  main #header .image {
+    overflow: hidden; }
+    main #header .image img {
+      width: 100%;
+      height: auto;
+      max-width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

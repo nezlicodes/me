@@ -1,0 +1,61 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    scroll-behavior: smooth;
+    height: 100vh;
+    max-width: 100% !important;
+    margin: 0;
+    background-color: #004669;
+    padding: 0;
+}
+
+main {
+    #header {
+        display: flex;
+        .text,
+        .image {
+            width: 50%;
+        }
+        .image {
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto;
+                max-width: 100%
+            }
+        }
+    }
+}
