@@ -51,23 +51,58 @@
             <h2>Recent projects</h2>
             <hr>
         </div>
-        <section id="about-me">
-            <div class="text">
-                <span>I have a commercial experience providing front-end development, producing high quality responsive websites and exceptional user experience.</span>
+        <section>
+            <div class="carousel carousel-slider center">
+                <div class="carousel-fixed-item center">
+
+                </div>
+                <div class="carousel-item" href="https://nezli-codes.herokuapp.com/">
+
+                    <h2>MEVN Blog</h2>
+                    <p class="white-text">Blog built with The MEVN stack: MongoDB, Express, VueJs, NodeJs</p> <img src="./assets/mevn_blog.PNG" alt="MEVN BLOG">
+                    <a class="btn waves-effect white grey-text darken-text-2" href="https://nezli-codes.herokuapp.com/" target="blank">Visit Link</a>
+                </div>
+                <div class="carousel-item" href="https://yaatikelkheir.com/">
+
+                    <h2>WORDPRESS Landing page</h2>
+                    <p class="white-text">Landing page built with wordpress</p> <img src="./assets/yaatik_el_kheir.PNG" alt="MEVN BLOG">
+                    <a class="btn waves-effect white grey-text darken-text-2" href="https://yaatikelkheir.com/" target="blank">Visit Link</a>
+                </div>
+                <div class="carousel-item" href="https://yaatikelkheir.com/">
+
+                    <h2>MEAN app</h2>
+                    <p class="white-text">MEAN Stack app: MongoDB Express Angular Vue</p>
+                    <img src="./assets/connant.png" alt="MEVN BLOG">
+                    <a class="btn waves-effect white grey-text darken-text-2" href="https://yaatikelkheir.com/" target="blank">Visit Link</a>
+                </div>
+                <div class="carousel-item" href="https://github.com/nezlicodes/scraping-with-python">
+
+                    <h2>WEB Scraping with Python </h2>
+                    <p class="white-text">I crawl the web with BeautifulSoup and Scrapy</p>
+                    <img src="./assets/web-scraping.jpg" alt="MEVN BLOG">
+                    <a class="btn waves-effect white grey-text darken-text-2" href="https://github.com/nezlicodes/scraping-with-python" target="blank">Visit Link</a>
+                </div>
+                <div class="carousel-item" href="https://github.com/nezlicodes/Scripting-In-A-Nutshell">
+
+                    <h2>Bash Scripting </h2>
+                    <p class="white-text">Scripting in a (nut)shell</p>
+                    <img src="./assets/shel.jpg" alt="MEVN BLOG">
+                    <a class="btn waves-effect white grey-text darken-text-2" href="https://github.com/nezlicodes/Scripting-In-A-Nutshell" target="blank">Visit Link</a>
+                </div>
+
+
             </div>
-            <div class="text">
-                <p>A front-end developer’s role is to combine design and business logic to achieve a user-facing product. A wide skill set is necessary to produce a quality user experience that leads to meeting business goals.</p>
-                <ul>
-                    <li>Create responsive websites that work on a wide range of devices</li>
-                    <li>Assist with production of clean and functional design</li>
-                    <li>Bridge communication gap between designers and developers</li>
-                    <li>Integrate your website into an easy to use content management system</li>
-                </ul>
-                <p>The work I provide is of highest quality, fully responsive, and tested in a wide range of devices.</p>
-            </div>
+
         </section>
     </main>
+    <script>
+        M.AutoInit();
 
+        var instance = M.Carousel.init({
+            fullWidth: false,
+            indicators: true
+        });
+    </script>
 </body>
 
 </html>
