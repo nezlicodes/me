@@ -44,7 +44,8 @@ main {
     height: 450px;
     display: flex; }
     main #header .text {
-      margin-top: 250px;
+      position: relative;
+      margin-top: 20%;
       text-align: center;
       text-justify: center;
       width: 60%; }
@@ -71,5 +72,26 @@ main {
         border-radius: 50%;
         -webkit-box-shadow: none;
         box-shadow: none; }
+  main .spacer {
+    display: flex; }
+    main .spacer h2 {
+      width: 50%;
+      font-size: 200%;
+      padding-left: 2em; }
+    main .spacer hr {
+      border-style: solid;
+      border-color: #33FFA9;
+      border-width: 5px;
+      width: 50%; }
+  main #about-me {
+    margin-top: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap; }
+    main #about-me .text {
+      padding: 1em;
+      width: 50%; }
+      main #about-me .text span {
+        font-size: 130%; }
 
 /*# sourceMappingURL=main.css.map */
