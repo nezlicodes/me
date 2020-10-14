@@ -91,5 +91,17 @@ main {
       width: 50%; }
       main #about-me .text span {
         font-size: 130%; }
+  main #projects .grid-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center; }
+    main #projects .grid-container .project {
+      width: 25rem;
+      padding: 2em; }
+      main #projects .grid-container .project img {
+        max-width: 100%;
+        height: auto;
+        overflow: hidden; }
 
 /*# sourceMappingURL=main.css.map */

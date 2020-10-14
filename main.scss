@@ -108,4 +108,21 @@
                 }
             }
         }
+        #projects {
+            .grid-container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                align-content: center;
+                .project {
+                    width: 25rem;
+                    padding: 2em;
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
     }
