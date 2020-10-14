@@ -23,7 +23,7 @@
                 <h3>In your role as a professional web developer, you’re up for just about any website-building challenge.</h3>
             </div>
             <div class="image">
-                <img src="./assets/about-lily.jpg" alt="hero-image">
+                <img src="./assets/about-lily.png" alt="hero-image">
             </div>
         </section>
         <div class="spacer">
@@ -52,55 +52,24 @@
             <hr>
         </div>
         <section>
-            <div class="carousel carousel-slider center">
-                <div class="carousel-fixed-item center">
 
-                </div>
-                <div class="carousel-item" href="https://nezli-codes.herokuapp.com/">
-
-                    <h2>MEVN Blog</h2>
-                    <p class="white-text">Blog built with The MEVN stack: MongoDB, Express, VueJs, NodeJs</p> <img src="./assets/mevn_blog.PNG" alt="MEVN BLOG">
-                    <a class="btn waves-effect white grey-text darken-text-2" href="https://nezli-codes.herokuapp.com/" target="blank">Visit Link</a>
-                </div>
-                <div class="carousel-item" href="https://yaatikelkheir.com/">
-
-                    <h2>WORDPRESS Landing page</h2>
-                    <p class="white-text">Landing page built with wordpress</p> <img src="./assets/yaatik_el_kheir.PNG" alt="MEVN BLOG">
-                    <a class="btn waves-effect white grey-text darken-text-2" href="https://yaatikelkheir.com/" target="blank">Visit Link</a>
-                </div>
-                <div class="carousel-item" href="https://yaatikelkheir.com/">
-
-                    <h2>MEAN app</h2>
-                    <p class="white-text">MEAN Stack app: MongoDB Express Angular Vue</p>
-                    <img src="./assets/connant.png" alt="MEVN BLOG">
-                    <a class="btn waves-effect white grey-text darken-text-2" href="https://yaatikelkheir.com/" target="blank">Visit Link</a>
-                </div>
-                <div class="carousel-item" href="https://github.com/nezlicodes/scraping-with-python">
-
-                    <h2>WEB Scraping with Python </h2>
-                    <p class="white-text">I crawl the web with BeautifulSoup and Scrapy</p>
-                    <img src="./assets/web-scraping.jpg" alt="MEVN BLOG">
-                    <a class="btn waves-effect white grey-text darken-text-2" href="https://github.com/nezlicodes/scraping-with-python" target="blank">Visit Link</a>
-                </div>
-                <div class="carousel-item" href="https://github.com/nezlicodes/Scripting-In-A-Nutshell">
-
-                    <h2>Bash Scripting </h2>
-                    <p class="white-text">Scripting in a (nut)shell</p>
-                    <img src="./assets/shel.jpg" alt="MEVN BLOG">
-                    <a class="btn waves-effect white grey-text darken-text-2" href="https://github.com/nezlicodes/Scripting-In-A-Nutshell" target="blank">Visit Link</a>
-                </div>
-
+            <div class="carousel">
+                <a class="carousel-item" href="https://nezli-codes.herokuapp.com/"><img src="./assets/mevn_blog.PNG "> Blog Built with the MEVN (MongoDB, Express, Vue, Nodejs) stack</a>
+                <a class="carousel-item" href="https://yaatikelkheir.com/"><img src="./assets/yaatik_el_kheir.PNG ">Landing page built with wordpress</a>
+                <a class="carousel-item" href="https://connant.herokuapp.com/"><img src="./assets/connant.png "> MEAN Stack app: MongoDB Express Angular Vue</a>
+                <a class="carousel-item" href="https://github.com/nezlicodes/scraping-with-python"><img src="./assets/shel.jpg ">WEB Scraping with Python</a>
+                <a class="carousel-item" href="https://github.com/nezlicodes/Scripting-In-A-Nutshell"><img src="./assets/web-scraping.jpg "> Scripting in a (nut)shell</a>
 
             </div>
-
         </section>
     </main>
     <script>
         M.AutoInit();
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
 
-        var instance = M.Carousel.init({
-            fullWidth: false,
-            indicators: true
+            var instances = M.Carousel.init(elems);
+
         });
     </script>
 </body>
