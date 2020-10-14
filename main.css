@@ -99,6 +99,9 @@ main {
     main #projects .grid-container .project {
       width: 25rem;
       padding: 2em; }
+      main #projects .grid-container .project a {
+        color: #1c2324;
+        font-weight: 700; }
       main #projects .grid-container .project img {
         max-width: 100%;
         height: auto;

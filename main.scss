@@ -1,128 +1,132 @@
-    *,
-    *:before,
-    *:after {
-        box-sizing: border-box;
-    }
-    
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    p,
-    ul,
-    ol,
-    li,
-    figure,
-    figcaption,
-    blockquote,
-    dl,
-    dd {
-        margin: 0;
-        padding: 0;
-    }
-    
-    html {
-        min-height: 100%;
-        overflow-x: hidden;
-        height: 100vh;
-        font-family: 'Roboto', sans-serif;
-        max-width: 100% !important;
-        margin: 0;
-        padding: 0;
-    }
-    
-    body {
-        color: #1c2324;
-        scroll-behavior: smooth;
-        height: 100vh;
-        max-width: 100% !important;
-        margin: 0;
-        background-color: #C8B8B7;
-        padding: 0;
-    }
-    
-    main {
-        margin-top: 20px;
-        #header {
-            height: 450px;
-            display: flex;
-            .text {
-                position: relative;
-                margin-top: 20%;
-                text-align: center;
-                text-justify: center;
-                width: 60%;
-                h1,
-                {
-                    font-size: 210%;
-                    line-height: 1.15em;
-                    letter-spacing: 1.5px;
-                    text-align: center;
-                }
-                h3 {
-                    font-size: 130%;
-                    text-align: center;
-                    letter-spacing: 1.1px;
-                }
-            }
-            .image {
-                width: 40%;
-                overflow: hidden;
-                img {
-                    width: 100%;
-                    height: auto;
-                    max-width: 100%;
-                    vertical-align: middle;
-                    display: inline-block;
-                    height: auto;
-                    -webkit-box-shadow: none;
-                    box-shadow: none;
-                }
-            }
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
         }
-        .spacer {
-            display: flex;
-            h2 {
-                width: 50%;
-                font-size: 200%;
-                padding-left: 2em;
-            }
-            hr {
-                border-style: solid;
-                border-color: #374748;
-                border-width: 5px;
-                width: 50%
-            }
+        
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        p,
+        ul,
+        ol,
+        li,
+        figure,
+        figcaption,
+        blockquote,
+        dl,
+        dd {
+            margin: 0;
+            padding: 0;
         }
-        #about-me {
-            margin-top: 2em;
-            padding: 1em;
-            display: flex;
-            flex-wrap: wrap;
-            .text {
-                padding: 1em;
-                width: 50%;
-                span {
-                    font-size: 130%
-                }
-            }
+        
+        html {
+            min-height: 100%;
+            overflow-x: hidden;
+            height: 100vh;
+            font-family: 'Roboto', sans-serif;
+            max-width: 100% !important;
+            margin: 0;
+            padding: 0;
         }
-        #projects {
-            .grid-container {
+        
+        body {
+            color: #1c2324;
+            scroll-behavior: smooth;
+            height: 100vh;
+            max-width: 100% !important;
+            margin: 0;
+            background-color: #C8B8B7;
+            padding: 0;
+        }
+        
+        main {
+            margin-top: 20px;
+            #header {
+                height: 450px;
                 display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
-                align-content: center;
-                .project {
-                    width: 25rem;
-                    padding: 2em;
+                .text {
+                    position: relative;
+                    margin-top: 20%;
+                    text-align: center;
+                    text-justify: center;
+                    width: 60%;
+                    h1,
+                    {
+                        font-size: 210%;
+                        line-height: 1.15em;
+                        letter-spacing: 1.5px;
+                        text-align: center;
+                    }
+                    h3 {
+                        font-size: 130%;
+                        text-align: center;
+                        letter-spacing: 1.1px;
+                    }
+                }
+                .image {
+                    width: 40%;
+                    overflow: hidden;
                     img {
-                        max-width: 100%;
+                        width: 100%;
                         height: auto;
-                        overflow: hidden;
+                        max-width: 100%;
+                        vertical-align: middle;
+                        display: inline-block;
+                        height: auto;
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                    }
+                }
+            }
+            .spacer {
+                display: flex;
+                h2 {
+                    width: 50%;
+                    font-size: 200%;
+                    padding-left: 2em;
+                }
+                hr {
+                    border-style: solid;
+                    border-color: #374748;
+                    border-width: 5px;
+                    width: 50%
+                }
+            }
+            #about-me {
+                margin-top: 2em;
+                padding: 1em;
+                display: flex;
+                flex-wrap: wrap;
+                .text {
+                    padding: 1em;
+                    width: 50%;
+                    span {
+                        font-size: 130%
+                    }
+                }
+            }
+            #projects {
+                .grid-container {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    .project {
+                        width: 25rem;
+                        padding: 2em;
+                        a {
+                            color: #1c2324;
+                            font-weight: 700;
+                        }
+                        img {
+                            max-width: 100%;
+                            height: auto;
+                            overflow: hidden;
+                        }
                     }
                 }
             }
         }
-    }
