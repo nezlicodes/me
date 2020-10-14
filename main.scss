@@ -33,7 +33,7 @@
     }
     
     body {
-        color: white;
+        color: #1c2324;
         scroll-behavior: smooth;
         height: 100vh;
         max-width: 100% !important;
@@ -76,8 +76,6 @@
                     vertical-align: middle;
                     display: inline-block;
                     height: auto;
-                    -webkit-border-radius: 50%;
-                    border-radius: 50%;
                     -webkit-box-shadow: none;
                     box-shadow: none;
                 }
@@ -92,7 +90,7 @@
             }
             hr {
                 border-style: solid;
-                border-color: #33FFA9;
+                border-color: #374748;
                 border-width: 5px;
                 width: 50%
             }
