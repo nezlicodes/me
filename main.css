@@ -55,6 +55,8 @@ main {
         list-style: none;
         display: flex;
         justify-content: center; }
+        main #header .text ul li {
+          padding: 0em 0.5em; }
       main #header .text h1 {
         font-size: 270%;
         font-weight: 1400;
