@@ -75,19 +75,7 @@ main {
         height: auto;
         -webkit-box-shadow: none;
         box-shadow: none; }
-  main .spacer {
-    display: flex; }
-    main .spacer h2 {
-      width: 50%;
-      font-size: 200%;
-      padding-left: 2em; }
-    main .spacer hr {
-      border-style: solid;
-      border-color: #374748;
-      border-width: 11px;
-      width: 53.6%; }
   main #about-me {
-    /* margin: 5em 0; */
     display: flex; }
     main #about-me .text {
       width: 50%;

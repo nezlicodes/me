@@ -88,22 +88,7 @@
                                 }
                             }
                         }
-                        .spacer {
-                            display: flex;
-                            h2 {
-                                width: 50%;
-                                font-size: 200%;
-                                padding-left: 2em;
-                            }
-                            hr {
-                                border-style: solid;
-                                border-color: #374748;
-                                border-width: 11px;
-                                width: 53.6%
-                            }
-                        }
                         #about-me {
-                            /* margin: 5em 0; */
                             display: flex;
                             .text {
                                 width: 50%;
