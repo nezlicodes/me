@@ -62,8 +62,14 @@
                                     display: flex;
                                     justify-content: center;
                                     li {
-                                        padding: 0em 0.5em
+                                        padding: 0em 0.5em;
+                                        a {
+                                            i:hover {
+                                                transform: rotate(-45deg);
+                                            }
+                                        }
                                     }
+                                    li:hover {}
                                 }
                                 h1,
                                 {
