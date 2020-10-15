@@ -36,6 +36,23 @@ body {
   margin: 0;
   padding: 0; }
 
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  background-image: linear-gradient(#2A768C, #56bdda); }
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; }
+    nav ul li#first-nav-element {
+      flex: 1; }
+    nav ul li {
+      padding: 1em 0.5em; }
+      nav ul li a {
+        color: white; }
+
 main {
   margin: 7em 0; }
   main #header {

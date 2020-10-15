@@ -1,4 +1,5 @@
                     $primary: #2A768C;
+                    $primaryy: #56bdda;
                     $secondary:#1c2324;
                     *:before,
                     *:after {
@@ -40,6 +41,28 @@
                         max-width: 100% !important;
                         margin: 0;
                         padding: 0;
+                    }
+                    
+                    nav {
+                        position: fixed;
+                        width: 100%;
+                        top: 0;
+                        z-index: 100;
+                        background-image: linear-gradient($primary, $primaryy);
+                        ul {
+                            list-style: none;
+                            display: flex;
+                            flex-wrap: wrap;
+                            li#first-nav-element {
+                                flex: 1
+                            }
+                            li {
+                                padding: 1em 0.5em;
+                                a {
+                                    color: white;
+                                }
+                            }
+                        }
                     }
                     
                     main {
