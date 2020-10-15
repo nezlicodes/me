@@ -111,6 +111,7 @@
                                 background-color: $primary;
                                 width: 50%;
                                 h2 {
+                                    color: white;
                                     transform: translateY(440%);
                                     display: flex;
                                     justify-content: center;
@@ -164,4 +165,14 @@
                                 width: 53.6%;
                             }
                         }
+                    }
+                    
+                    footer {
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                        width: 100%;
+                        background-color: $primary;
+                        color: white;
+                        height: 200px;
                     }

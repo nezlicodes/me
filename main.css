@@ -95,6 +95,7 @@ main {
       background-color: #2A768C;
       width: 50%; }
       main #about-me .image h2 {
+        color: white;
         transform: translateY(440%);
         display: flex;
         justify-content: center;
@@ -130,5 +131,13 @@ main {
     border-color: #374748;
     width: 3px;
     width: 53.6%; } }
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #2A768C;
+  color: white;
+  height: 200px; }
 
 /*# sourceMappingURL=main.css.map */
