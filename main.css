@@ -46,6 +46,7 @@ main {
       position: relative;
       text-align: center;
       text-justify: center;
+      transform: translateY(30%);
       min-width: 50%; }
       main #header .text h1 {
         font-size: 210%;
@@ -113,7 +114,8 @@ main {
 
 @media screen and (max-width: 740px) {
   main #header .text {
-    width: 100% !important; }
+    width: 100% !important;
+    transform: translateY(-40%); }
   main #header .image {
     width: 100% !important; } }
 
