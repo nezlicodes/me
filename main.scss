@@ -43,7 +43,7 @@
                     }
                     
                     main {
-                        margin: 5em 0;
+                        margin: 7em 0;
                         #header {
                             display: flex;
                             flex-wrap: wrap;
@@ -103,15 +103,29 @@
                             }
                         }
                         #about-me {
-                            margin-top: 2em;
-                            padding: 1em;
+                            /* margin: 5em 0; */
                             display: flex;
-                            flex-wrap: wrap;
                             .text {
-                                padding: 1em;
                                 width: 50%;
+                                padding: 1em;
+                                font-size: 110%;
+                                ul {
+                                    list-style: none;
+                                }
                                 span {
                                     font-size: 130%
+                                }
+                            }
+                            .image {
+                                min-height: 300px;
+                                border: solid $primary 17px;
+                                background-color: $primary;
+                                width: 50%;
+                                h2 {
+                                    transform: translateY(440%);
+                                    display: flex;
+                                    justify-content: center;
+                                    align-content: center;
                                 }
                             }
                         }

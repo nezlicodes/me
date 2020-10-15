@@ -37,7 +37,7 @@ body {
   padding: 0; }
 
 main {
-  margin: 5em 0; }
+  margin: 7em 0; }
   main #header {
     display: flex;
     flex-wrap: wrap;
@@ -87,15 +87,26 @@ main {
       border-width: 11px;
       width: 53.6%; }
   main #about-me {
-    margin-top: 2em;
-    padding: 1em;
-    display: flex;
-    flex-wrap: wrap; }
+    /* margin: 5em 0; */
+    display: flex; }
     main #about-me .text {
+      width: 50%;
       padding: 1em;
-      width: 50%; }
+      font-size: 110%; }
+      main #about-me .text ul {
+        list-style: none; }
       main #about-me .text span {
         font-size: 130%; }
+    main #about-me .image {
+      min-height: 300px;
+      border: solid #2A768C 17px;
+      background-color: #2A768C;
+      width: 50%; }
+      main #about-me .image h2 {
+        transform: translateY(440%);
+        display: flex;
+        justify-content: center;
+        align-content: center; }
   main #projects .grid-container {
     display: flex;
     justify-content: center;
