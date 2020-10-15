@@ -51,6 +51,10 @@ main {
       background: -webkit-linear-gradient(#1c2324, #2A768C);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
+      main #header .text ul {
+        list-style: none;
+        display: flex;
+        justify-content: center; }
       main #header .text h1 {
         font-size: 270%;
         font-weight: 1400;
