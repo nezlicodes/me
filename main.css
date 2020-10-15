@@ -54,11 +54,12 @@ nav {
         color: white; }
 
 main {
-  margin: 7em 0; }
+  margin: 3em 0; }
   main #header {
     display: flex;
     flex-wrap: wrap;
-    width: 100%; }
+    width: 100%;
+    height: 90vh; }
     main #header .text {
       position: relative;
       text-align: center;
@@ -146,16 +147,18 @@ main {
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); }
 
 @media screen and (max-width: 740px) {
-  main #header .text {
-    width: 100% !important;
-    transform: translateY(-40%); }
-  main #header .image {
-    width: 100% !important; }
-  main hr {
-    border-style: solid;
-    border-color: #374748;
-    width: 3px;
-    width: 53.6%; } }
+  main {
+    margin-top: 10em; }
+    main #header .text {
+      width: 100% !important;
+      transform: translateY(-40%); }
+    main #header .image {
+      width: 100% !important; }
+    main hr {
+      border-style: solid;
+      border-color: #374748;
+      width: 3px;
+      width: 53.6%; } }
 footer {
   display: flex;
   justify-content: center;
