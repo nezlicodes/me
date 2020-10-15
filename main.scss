@@ -54,6 +54,9 @@
                                 text-justify: center;
                                 transform: translateY(30%);
                                 min-width: 50%;
+                                background: -webkit-linear-gradient( $secondary, $primary);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
                                 h1,
                                 {
                                     font-size: 270%;
@@ -95,8 +98,8 @@
                             hr {
                                 border-style: solid;
                                 border-color: #374748;
-                                border-width: 5px;
-                                width: 50%
+                                border-width: 11px;
+                                width: 53.6%
                             }
                         }
                         #about-me {
@@ -150,6 +153,12 @@
                                 .image {
                                     width: 100% !important
                                 }
+                            }
+                            hr {
+                                border-style: solid;
+                                border-color: #374748;
+                                width: 3px;
+                                width: 53.6%;
                             }
                         }
                     }
