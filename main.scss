@@ -50,7 +50,6 @@
                             width: 100%;
                             .text {
                                 position: relative;
-                                margin-top: 20%;
                                 text-align: center;
                                 text-justify: center;
                                 min-width: 50%;
@@ -67,6 +66,7 @@
                                 }
                             }
                             .image {
+                                min-width: 50%;
                                 background-color: $primary;
                                 overflow: hidden;
                                 img {
