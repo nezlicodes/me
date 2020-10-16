@@ -115,7 +115,8 @@ main {
       flex-direction: column; }
       main #about-me .text ul,
       main #techs .text ul {
-        list-style: none; }
+        list-style: url("./assets/check.png");
+        padding: 1.3em; }
       main #about-me .text span,
       main #techs .text span {
         font-size: 130%; }
