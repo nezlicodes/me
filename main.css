@@ -101,9 +101,11 @@ main {
         height: auto;
         -webkit-box-shadow: none;
         box-shadow: none; }
-  main #about-me {
+  main #about-me,
+  main #techs {
     display: flex; }
-    main #about-me .text {
+    main #about-me .text,
+    main #techs .text {
       width: 50%;
       font-size: 110%;
       display: flex;
@@ -111,16 +113,20 @@ main {
       align-content: center;
       padding: 1em;
       flex-direction: column; }
-      main #about-me .text ul {
+      main #about-me .text ul,
+      main #techs .text ul {
         list-style: none; }
-      main #about-me .text span {
+      main #about-me .text span,
+      main #techs .text span {
         font-size: 130%; }
-    main #about-me .image {
+    main #about-me .image,
+    main #techs .image {
       min-height: 400px;
       border: solid #2A768C 18px;
       background-color: #2A768C;
       width: 50%; }
-      main #about-me .image h2 {
+      main #about-me .image h2,
+      main #techs .image h2 {
         color: white;
         transform: translateY(440%);
         display: flex;
