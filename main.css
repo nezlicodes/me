@@ -182,7 +182,14 @@ main {
       flex-direction: column; }
       main .text-block .text,
       main .text-block .image {
-        width: 100%; }
+        width: 100%;
+        min-height: 150px; }
+      main .text-block .image {
+        margin-top: 1em; }
+        main .text-block .image h2 {
+          text-align: center;
+          text-justify: center;
+          transform: translateY(45px); }
     main hr {
       border-style: solid;
       border-color: #374748;

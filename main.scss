@@ -231,6 +231,15 @@
                                 .text,
                                 .image {
                                     width: 100%;
+                                    min-height: 150px;
+                                }
+                                .image {
+                                    margin-top: 1em;
+                                    h2 {
+                                        text-align: center;
+                                        text-justify: center;
+                                        transform: translateY(45px);
+                                    }
                                 }
                             }
                             hr {
