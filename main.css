@@ -59,7 +59,7 @@ nav {
         color: darkcyan; }
 
 main {
-  margin: 4em 0; }
+  margin: 3.5em 0; }
   main #header {
     display: flex;
     flex-wrap: wrap;
