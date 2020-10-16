@@ -116,6 +116,9 @@ main {
         padding: 1.3em; }
       main .text-block .text span {
         font-size: 130%; }
+      main .text-block .text i {
+        padding: 0.25em;
+        color: #56bdda; }
     main .text-block .image {
       min-height: 400px;
       border: solid #2A768C 18px;
