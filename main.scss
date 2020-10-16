@@ -73,7 +73,7 @@
                     }
                     
                     main {
-                        margin: 3em 0;
+                        margin: 4em 0;
                         #header {
                             display: flex;
                             flex-wrap: wrap;
@@ -123,6 +123,15 @@
                                     background: linear-gradient( to right, $primary, $secondary);
                                     -webkit-text-fill-color: transparent;
                                     -webkit-background-clip: text;
+                                    a,
+                                    a:visited,
+                                    a:hover {
+                                        margin: 1.2em 0;
+                                        text-decoration: none;
+                                        background: linear-gradient( to right, #f32170, #cf23cf);
+                                        -webkit-text-fill-color: transparent;
+                                        -webkit-background-clip: text;
+                                    }
                                 }
                             }
                             .image {

@@ -59,7 +59,7 @@ nav {
         color: darkcyan; }
 
 main {
-  margin: 3em 0; }
+  margin: 4em 0; }
   main #header {
     display: flex;
     flex-wrap: wrap;
@@ -100,6 +100,14 @@ main {
         background: linear-gradient(to right, #2A768C, #1c2324);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text; }
+        main #header .text p a,
+        main #header .text p a:visited,
+        main #header .text p a:hover {
+          margin: 1.2em 0;
+          text-decoration: none;
+          background: linear-gradient(to right, #f32170, #cf23cf);
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text; }
     main #header .image {
       display: flex;
       justify-content: center;
