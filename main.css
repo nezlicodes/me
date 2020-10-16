@@ -112,8 +112,21 @@ main {
       padding: 1em;
       flex-direction: column; }
       main .text-block .text ul {
-        list-style: url("./assets/check.png");
+        list-style: none;
         padding: 1.3em; }
+        main .text-block .text ul li::before {
+          content: "\2022";
+          /* Add content: \2022 is the CSS Code/unicode for a bullet */
+          color: #56bdda;
+          /* Change the color */
+          font-weight: bold;
+          /* If you want it to be bold */
+          display: inline-block;
+          /* Needed to add space between the bullet and the text */
+          width: 1em;
+          /* Also needed for space (tweak if needed) */
+          margin-left: -1em;
+          /* Also needed for space (tweak if needed) */ }
       main .text-block .text span {
         font-size: 130%; }
       main .text-block .text i {
